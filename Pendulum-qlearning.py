@@ -14,8 +14,8 @@ EPISODES = 150000
 SHOW_EVERY = 1
 STATS_EVERY = 100
 epsilon = 1
-EPSILON_THRESHOLD = 0
-epsilon_decay_value = 1
+EPSILON_THRESHOLD = 0.1
+epsilon_decay_value = 0.999
 
 # Making discrete action space
 DISCRETE_ACTION_SPACE_SIZE = 17
